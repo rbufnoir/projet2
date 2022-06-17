@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+}
+
+header {
+	position: sticky;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 100%;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+}
+
+header ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 0;
+	position: relative;
+	height: 80px;
+}
+
+header ul li {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+
+header ul li a {
+	display: flex;
+	align-items: center;
+}
+
+header ul li button {
+	display: flex;
+	align-items: center;
+}
+
+button {
+	border: none;
+	background-color:white;
+}
+
+.noBullets {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	//width: 56px;
+	//height: 48px;
+}
+
+nav ul li
+{
+	opacity: 0.6;
+}
+
+nav ul li:hover {
+	opacity: 1;
+}
+
+nav ul li:last-child button{
+	flex-direction: row;
+	border: solid;
+	border-radius: 30%;
+}
+
+main ul {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	//box-sizing: border-box;
+}
+
+main ul li {
+	width: 320px;
+	height: 404px;
+	margin-bottom: 19px;
+	font-size: 15px;
+	line-height: 20px;
+
+}
+
+main {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+main img {
+	width: 320px;
+	height: 304px;
+	border-radius: 10%;
+}
+
+footer ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+footer {
+	position: sticky;
+	bottom: 0;
+	margin-left: 80px;
+	margin-right: 80px;
+	background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	header ul li:first-child a :last-child{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	header ul li:first-child, li:last-child {
+		display: none;
+	}
+
+	header ul li {
+		width: 100%;
+	}
+
+	footer {
+		display: none;
+	}
+}
