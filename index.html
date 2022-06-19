@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+	<head lang="fr">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Page d'accueil du site Airbnb">
+		<link rel="stylesheet" type="text/css" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+		<script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+	</head>
+
+	<body class="container">
+		<header class="sticky-top bg-white">
+			<ul class="d-flex justify-content-between align-items-center list-unstyled m-3">
+				<li><a class="d-flex align-items-center" href="index.html"><img class="d-none d-sm-block" src="img/logo/airbnb.png" alt="logoAirbnb" width="30px" height="32px"><img class="d-none d-xl-block" src="img/logo/textAirbnb.png" width="66" height="18"></a></li>
+				<li class="border border-1 p-2 rounded-pill"><button class="border-0 bg-white" type="button">N'importe où</button>
+					 										<button class="border-0 bg-white" type="button">Une semaine</button>
+															<button class="border-0 bg-white" type="button">Ajouter des voyageurs<img class="rounded-circle" src="img/logo/loupe2.png" min-width="32" height="32"></button></li>
+				<li class="d-none d-sm-block d-flex align-items-center">
+					<a href="https://www.airbnb.fr/host/homes">Devenez hôte</a>
+					<button class="border-0 bg-white" type="button"><img src="img/logo/buttonWorld.png" alt="langue"></button>
+					<button class="rounded-pill bg-white" type="button"><img src="img/logo/buttonExpand.png" alt="expand"><img src="img/logo/user.png" alt="user"></button>
+				</li>
+			</ul>
+		</header>
+
+		<nav class="sticky">
+			<ul class="d-flex list-unstyled justify-content-between">
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/design.jpg" alt="design" width="24" height="24">Design</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/iles.jpg" alt="iles" width="24" height="24">Îles</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/parcNationaux.jpg" alt="parcNationaux" width="24" height="24">Parc nationaux</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/tinyHouses.jpg" alt="tinyHouses" width="24" height="24">Tiny houses</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/wow.jpg" alt="wow" width="24" height="24">Wow !</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/plages.jpg" alt="plages" width="24" height="24">Plages</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/cabanes.jpg" alt="cabanes" width="24" height="24">Cabanes</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/camping.jpg" alt="camping" width="24" height="24">Camping</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/patrimoine.jpg" alt="patrimoine" width="24" height="24">Patrimoine</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/cabanesPerchees.jpg" alt="cabanesPerchees" width="24" height="24">Cabanes perchées</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/arctique.jpg" alt="arctique" width="24" height="24">Arctique</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/piscines.jpg" alt="piscines" width="24" height="24">Piscines</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/granges.jpg" alt="granges" width="24" height="24">Granges</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/surf.jpg" alt="surf" width="24" height="24">Surf</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button"><img src="img/logo/rightArrow.png" alt="rightButton" width="24" height="24"</button></li>
+				<li><button class="d-flex flex-column align-items-center border-0 bg-white opacity-50" type="button" class="filterButton"><img src="img/logo/filterIcon.png" alt="filterButton" width="24" height="24">Filtres</button></li>
+			</ul>
+
+		</nav>
+
+
+
+		<main class="container">
+
+			<p>Classement par ordre de pertinence</p>
+
+			<ul class="row list-unstyled">
+				<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+					<figure id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+						<ul class="list-unstyled carousel-inner ratio ratio-1x1">
+							<li class="ratio ratio-1x1"><img class="carousel-item active" src="img/photos/0c4290ea-12a0-4fb4-a581-30da029e336e.jpg" alt="photo"></li>
+							<li><img class="carousel-item" src="img/photos/1a0edc12-4a18-42da-b44a-42d77ea595b3.jpg" alt="photo"></li>
+							<li><button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	 						<span class="visually-hidden">Previous</span>
+ 							</button></li>
+ 							<li><button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	 						<span class="visually-hidden">Next</span>
+						</button></li>
+						</ul>
+					</figure>
+					<figcaption>Gloucestire, Royaume Uni<br/>
+					Maison conçue par Simon John Carpenter<br/>
+					16-21 août. - Professionnel<br/>
+					521€ / nuit</figcaption>
+				</li>
+
+				<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 " >
+					<figure id="carousel2" class="carousel slide" data-bs-ride="carousel">
+						<ul class="carousel-inner list-unstyled ratio ratio-1x1">
+							<li><img class="carousel-item active" src="img/photos/1a0edc12-4a18-42da-b44a-42d77ea595b3.jpg" alt="photo"></li>
+							<li><img class="carousel-item" src="img/photos/40ad3ba5-fab2-4d36-8586-d56fe70a8b85.jpg" alt="photo"></li>
+
+						<li><button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+	 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	 						<span class="visually-hidden">Previous</span>
+ 						</button></li>
+ 						<li><button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+	 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	 						<span class="visually-hidden">Next</span>
+						</button></li>
+						</ul>
+					</figure>
+					<figcaption>
+						<p>Grand Londres, Royaume Uni</p>
+						<p>Particulier<br/>
+							11-17 juil.</p>
+							<p>3 552 € / nuit</p>
+					</figcaption>
+				</li>
+
+				<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+					<img class="mw-100" src="img/photos/40ad3ba5-fab2-4d36-8586-d56fe70a8b85.jpg" alt="photo">
+					<p>Paris, France</p>
+					<p>Professionnel<br/>
+					16-21 juin</p>
+					<p>4 541 € / nuit</p>
+				</li>
+
+			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<img class="mw-100" src="img/photos/2d811bfc-9e1b-41ae-8156-c1df534191ed.jpeg" alt="photo">
+				<p>Paris, France</p>
+				<p>Maison conçue par Carlos Zapata<br/>
+				26 juin-2juil. Professionnel</p>
+				<p>2 589 € / nuit</p>
+			</li>
+
+			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<img class="mw-100" src="img/photos/2e1d61f0-935e-4abd-aba4-755a4c51eac3.jpg" alt="photo">
+				<p>MV, Maldives</p>
+				<p>Professionnel<br/>
+				23–28 juin</p>
+				<p>606 € / nuit</p>
+			</li>
+
+			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<img class="mw-100" src="img/photos/3d966c94-4c87-479b-8eeb-4889e9fb6ac9.jpeg" alt="photo">
+				<p>MV, Maldives</p>
+				<p>Professionnel<br/>
+				23–28 juin</p>
+				<p>606 € / nuit</p>
+			</li>
+
+			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<img class="mw-100" src="img/photos/4dd0aa84-b8e0-49cf-bbde-ee08df7ae452.jpg" alt="photo">
+				<p>MV, Maldives</p>
+				<p>Professionnel<br/>
+				23–28 juin</p>
+				<p>606 € / nuit</p>
+			</li>
+
+			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<img class="mw-100" src="img/photos/05b2184c-2350-4316-8f4a-893342d9f3cf.jpeg" alt="photo">
+				<p>MV, Maldives</p>
+				<p>Professionnel<br/>
+				23–28 juin</p>
+				<p>606 € / nuit</p>
+			</li>
+		</ul>
+
+			<!-- <div class="test">
+				<img class="slide1" src="img_snowtops.jpg">
+				<img class="slide1" src="img_lights.jpg">
+				<img class="slide1" src="img_mountains.jpg">
+				<img class="slide1" src="img_forest.jpg">
+
+				<button class="bSlide1" onclick="plusDivs('slide1', -1)">&#10094;</button>
+				<button class="bSlide1" onclick="plusDivs('slide1', 1)">&#10095;</button>
+			</div>
+
+			<div class="test1">
+				<img class="slide2" src="img_snowtops.jpg">
+				<img class="slide2" src="img_lights.jpg">
+				<img class="slide2" src="img_mountains.jpg">
+				<img class="slide2" src="img_forest.jpg">
+
+				<button class="bSlide2" onclick="plusDivs('slide2', -1)">&#10094;</button>
+				<button class="bSlide2" onclick="plusDivs('slide2', 1)">&#10095;</button>
+			</div>
+
+
+			<script type="text/javascript">
+				var slideIndex=1;
+
+				function plusDivs(slideName, n) {
+					showDivs(slideName, slideIndex += n)
+				}
+
+				function showDivs (slideName, n) {
+					var i;
+					var x = document.getElementsByClassName(slideName);
+
+					if (n > x.length)
+						slideIndex = 1;
+					if (n < 1)
+						slideIndex = x.length;
+					for (i = 0; i < x.length; i++)
+						x[i].style.display = "none";
+					x[slideIndex-1].style.display = "block";
+				}
+			</script> -->
+		</main>
+
+		<footer class="sticky-bottom d-flex align-items-center justify-content-between list-unstyled bg-white">
+
+			<p>© 2022 Airbnb, Inc. . <a href="https://www.airbnb.fr/terms/privacy_policy">Confidentialité</a> .
+			<a href="https://www.airbnb.fr/sitemaps/v2">Plan du site</a> .
+			<a href="https://www.airbnb.fr/fonctionnement_du_site">Fonctionnement du site</a> .
+			<a href="https://www.airbnb.fr/about/company-details">Infos sur l'entreprise</a> .
+			Destinations</p>
+
+			<ul class="d-flex list-unstyled">
+				<li><button class="border-0 bg-white" type="button">Français</button></li>
+				<li><button class="border-0 bg-white" type="button">EUR</button></li>
+				<li><button class="border-0 bg-white" type="button">Assistance et ressources</button></li>
+			</ul>
+		</footer>
+
+	</body>
+</html>
